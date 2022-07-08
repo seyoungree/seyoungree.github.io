@@ -1,8 +1,10 @@
 h1 {
-    font-family: 'Zen Kurenaido', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:rgb(36,76,112);
 }
 p {
-
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:rgb(65,65,85);
 }
 
 /* From uiverse.io by @alexmaracinaru */

@@ -6,7 +6,7 @@ function Home() {
     return (
         <section id="home">
             <br/>
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
                     Hi, I'm Seyoung!
                 <br className="hidden lg:inline-block" />
             </h1>

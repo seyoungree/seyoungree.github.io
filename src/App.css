@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 .App {
   text-align: center;  
-  background-color:rgb(246, 245, 207);
+  background-color:rgb(255,255,255);
 }
 
 .App-logo {

@@ -23,22 +23,21 @@ function NavbarComponent() {
 
     return (
             <div className="navbarDiv" >
-            <Navbar className="navbar  gradient-custom" fixed="top" variant={"light"} expand="lg">
+            <Navbar className="navbar gradient-custom" fixed="top" variant={"light"} expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home">SEYOUNG REE</Navbar.Brand>
+                    <Navbar.Brand className="navName" href="#home">SEYOUNG REE</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
-                        <Nav.Link href="#home" className="hover-3" style={{color: isHoveringHome ? 'white' : '',}} onMouseEnter={handleMouseEnterHome} onMouseLeave={handleMouseLeaveHome}>
-                                 Home 
+                    <Nav className="me-auto px-2">
+                        <Nav.Link href="#home"  style={{color: isHoveringHome ? 'rgb(36,76,112)' : '', textTransform: isHoveringHome ? 'uppercase' : '',}} onMouseEnter={handleMouseEnterHome} onMouseLeave={handleMouseLeaveHome}>
+                                Home
                         </Nav.Link>
-                        <Nav.Link href="#about" style={{color: isHoveringAbout ? 'white' : '',}} onMouseEnter={handleMouseEnterAbout} onMouseLeave={handleMouseLeaveAbout}>
-                                 About 
+                        <Nav.Link href="#about" style={{color: isHoveringAbout ? 'rgb(36,76,112)' : '',textTransform: isHoveringAbout ? 'uppercase' : '',}} onMouseEnter={handleMouseEnterAbout} onMouseLeave={handleMouseLeaveAbout}>
+                                 About
                         </Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>
-                
             </Navbar>
             </div>
     );
