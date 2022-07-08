@@ -1,10 +1,9 @@
 import {
     faLinkedin,
     faGithub,
-    faInstagram
   } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 function Socials() {
     return (
         <div class="social-container">
@@ -24,9 +23,10 @@ function Socials() {
                 className="email social">
                 <FontAwesomeIcon icon={faEnvelope} size="lg" />
             </a>
-            <a href="https://www.instagram.com/learnbuildteach"
-                className="instagram social">
-                <FontAwesomeIcon icon={faInstagram} size="lg" />
+            <a href="Tel: 419-376-4718"
+                target="_blank"
+                className="phone social">
+                <FontAwesomeIcon icon={faPhone} size="lg" />
             </a>
         </div>
     );

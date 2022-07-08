@@ -2,6 +2,7 @@ import React from "react";
 import $ from 'jquery';
 
 function About() {
+
     $(document).on("scroll", function() {
         var pageTop = $(document).scrollTop();
         var pageBottom = pageTop + $(window).height();
@@ -18,8 +19,8 @@ function About() {
       });
 
     return (
-        <section className="tag" id="about">
-            <h5>About</h5><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <section className="tag slide-up" id="about">
+            <h1>About</h1>
         </section>
         
     );

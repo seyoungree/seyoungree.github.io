@@ -17,27 +17,55 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 section { 
   height: 100vh; 
   padding-top: 80px;
 }
 
 
-
-
 #about {
-  opacity: 0;
+  opacity: 0;  
+  height: 100vh; 
   transform: translate(0, 10vh);
-  transition: all 3s;
-  animation: fadeBackground 10s;
+  transition: all 4s;
+  animation: fadeBackground 4s;
   animation-fill-mode: forwards;
 }
-
-
 @keyframes fadeBackground {
-  from { background-color: #fbf7c5; }
+  from { background-color: #131101; }
   to { background-color: #d5e9f5; }
 }
+
+
+section.slide-up {
+  height: 100%;
+  overflow: hidden;
+}
+
+section.slide-up p {
+  animation: 5s slide-up;
+  margin-top: 0%;
+}
+
+section.slide-up h1 {
+  animation: 3s slide-up;
+  margin-top: 0%;
+}
+
+
+@keyframes slide-up {
+  from {
+    margin-top: 100%;
+    height: 300%;
+  }
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}
+
+
 
 .tag.visible {
   opacity: 1 !important;
