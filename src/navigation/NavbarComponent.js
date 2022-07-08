@@ -2,6 +2,7 @@ import React from "react";
 import {Navbar, Nav, NavDropdown, Container} from 'react-bootstrap'
 import './NavbarComponent.css'
 import {useState} from 'react';
+import Socials from "../Socials";
 
 function NavbarComponent() {
    
@@ -27,8 +28,8 @@ function NavbarComponent() {
                 <Container>
                     <Navbar.Brand className="navName" href="#home">SEYOUNG REE</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto px-2">
+                    <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
+                    <Nav className="me-auto px-2 justify-content-between">
                         <Nav.Link href="#home"  style={{color: isHoveringHome ? 'rgb(36,76,112)' : 'rgb(122,139,153)', textTransform: isHoveringHome ? 'uppercase' : '',}} onMouseEnter={handleMouseEnterHome} onMouseLeave={handleMouseLeaveHome}>
                                 HOME
                         </Nav.Link>
@@ -36,10 +37,16 @@ function NavbarComponent() {
                                  ABOUT
                         </Nav.Link>
                     </Nav>
+                    <Socials/>
+
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
             </div>
+
+
+            
+            
     );
 }
 

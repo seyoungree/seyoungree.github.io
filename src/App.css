@@ -29,13 +29,13 @@ section {
   opacity: 0;
   transform: translate(0, 10vh);
   transition: all 3s;
-  animation: fadeBackground 5s;
+  animation: fadeBackground 10s;
   animation-fill-mode: forwards;
 }
 
 
 @keyframes fadeBackground {
-  from { background-color: #374786; }
+  from { background-color: #fbf7c5; }
   to { background-color: #d5e9f5; }
 }
 
@@ -58,6 +58,22 @@ body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.social-container {
+  padding: 25px 50px;
+}
+
+a.social {
+  margin: 0 0.75rem;
+  color:rgb(161, 191, 215);
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-3px);
+  color:#2e3c58;
 }
 
 .App-link {
