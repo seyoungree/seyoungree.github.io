@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.55aec956.css",
-    "main.js": "/static/js/main.558e428a.js",
+    "main.css": "/static/css/main.d96281ef.css",
+    "main.js": "/static/js/main.69a8962e.js",
     "static/js/787.d3a323c0.chunk.js": "/static/js/787.d3a323c0.chunk.js",
     "static/media/shizuru-all-400-normal.woff": "/static/media/shizuru-all-400-normal.48582200439808176aa1.woff",
     "static/media/shizuru-119-400-normal.woff2": "/static/media/shizuru-119-400-normal.50b405add51d46c51193.woff2",
@@ -28,12 +28,12 @@
     "static/media/shizuru-91-400-normal.woff2": "/static/media/shizuru-91-400-normal.bfbf22c1c0f4a336d3f7.woff2",
     "static/media/shizuru-74-400-normal.woff2": "/static/media/shizuru-74-400-normal.74988120d591755f55fc.woff2",
     "index.html": "/index.html",
-    "main.55aec956.css.map": "/static/css/main.55aec956.css.map",
-    "main.558e428a.js.map": "/static/js/main.558e428a.js.map",
+    "main.d96281ef.css.map": "/static/css/main.d96281ef.css.map",
+    "main.69a8962e.js.map": "/static/js/main.69a8962e.js.map",
     "787.d3a323c0.chunk.js.map": "/static/js/787.d3a323c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55aec956.css",
-    "static/js/main.558e428a.js"
+    "static/css/main.d96281ef.css",
+    "static/js/main.69a8962e.js"
   ]
 }
