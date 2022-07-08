@@ -20,13 +20,13 @@ Nav{
 
    .gradient-custom {
     /* fallback for old browsers */
-    background: rgb(245,246,228);
+    background: rgb(255, 255, 255);
 
      
-    background: -webkit-linear-gradient(to right, rgb(178, 126, 213), rgb(113, 250, 195));
+/*     background: -webkit-linear-gradient(to right, rgb(178, 126, 213), rgb(113, 250, 195));
   
     
-    background: linear-gradient(to right, rgb(239,246, 228), rgb(163, 197, 228)); 
+    background: linear-gradient(to right, rgb(239,246, 228), rgb(163, 197, 228));  */
     
   }
 

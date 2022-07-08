@@ -29,11 +29,11 @@ function NavbarComponent() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto px-2">
-                        <Nav.Link href="#home"  style={{color: isHoveringHome ? 'rgb(36,76,112)' : '', textTransform: isHoveringHome ? 'uppercase' : '',}} onMouseEnter={handleMouseEnterHome} onMouseLeave={handleMouseLeaveHome}>
-                                Home
+                        <Nav.Link href="#home"  style={{color: isHoveringHome ? 'rgb(36,76,112)' : 'rgb(122,139,153)', textTransform: isHoveringHome ? 'uppercase' : '',}} onMouseEnter={handleMouseEnterHome} onMouseLeave={handleMouseLeaveHome}>
+                                HOME
                         </Nav.Link>
-                        <Nav.Link href="#about" style={{color: isHoveringAbout ? 'rgb(36,76,112)' : '',textTransform: isHoveringAbout ? 'uppercase' : '',}} onMouseEnter={handleMouseEnterAbout} onMouseLeave={handleMouseLeaveAbout}>
-                                 About
+                        <Nav.Link href="#about" style={{color: isHoveringAbout ? 'rgb(36,76,112)' : 'rgb(122,139,153)',textTransform: isHoveringAbout ? 'uppercase' : '',}} onMouseEnter={handleMouseEnterAbout} onMouseLeave={handleMouseLeaveAbout}>
+                                 ABOUT
                         </Nav.Link>
                     </Nav>
                     </Navbar.Collapse>

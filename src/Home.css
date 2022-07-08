@@ -1,11 +1,48 @@
 h1 {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Abril Fatface', cursive;
     color:rgb(36,76,112);
 }
 p {
     font-family: 'IBM Plex Sans', sans-serif;
     color:rgb(65,65,85);
 }
+/* .fadein {
+    opacity: 0;
+    -moz-transition: opacity 6s;
+    -webkit-transition: opacity 6s;
+    -o-transition: opacity 6s;
+    transition: opacity 6s;
+  }
+  
+  .homepage.loaded.fadein {
+    opacity: 1 ;
+  } */
+
+  section.slide-up {
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  section.slide-up p {
+    animation: 5s slide-up;
+    margin-top: 0%;
+  }
+
+  section.slide-up h1 {
+    animation: 3s slide-up;
+    margin-top: 0%;
+  }
+  
+  @keyframes slide-up {
+    from {
+      margin-top: 100%;
+      height: 300%;
+    }
+    to {
+      margin-top: 0%;
+      height: 100%;
+    }
+  }
 
 /* From uiverse.io by @alexmaracinaru */
 .cta {

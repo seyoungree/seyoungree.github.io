@@ -1,16 +1,39 @@
 import React from "react";
 import './Home.css'
 import "@fontsource/shizuru";
+import $ from 'jquery';
 
 function Home() {
+
+    $(document).on("scroll", function() {
+        var pageTop = $(document).scrollTop();
+        var pageBottom = pageTop + $(window).height();
+        var tags = $(".tag");
+      
+        for (var i = 0; i < tags.length; i++) {
+          var tag = tags[i];
+          if ($(tag).position().top < pageBottom) {
+            $(tag).addClass("visible");
+          } else {
+            $(tag).removeClass("visible");
+          }
+        }
+      });
+
+    window.onload = function() {
+        var element = document.getElementById("home");
+        element.classList.add("loaded");
+    }
+
+      
     return (
-        <section id="home">
+        <section id="home" className="homepage slide-up">
             <br/>
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
                     Hi, I'm Seyoung!
                 <br className="hidden lg:inline-block" />
             </h1>
-            <p>I am a sophomore CS student at Columbia University! I'm skilled at full-stack development, and am looking for software engineering internships. </p>
+            <p>I am a sophomore CS student at Columbia University. I'm currently looking for software engineering internships. Please take a look at my resume and reach me at seyoungree@gmail.com!</p>
             <br/>
             <p>This resume is outdated and the website is still in progress! </p>
             <a href="https://drive.google.com/file/d/1Q3j4h16KypqJ_BhVY82PlTdmZPB9hnwQ/view?usp=sharing" target="_blank">

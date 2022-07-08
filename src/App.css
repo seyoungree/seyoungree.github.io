@@ -17,9 +17,35 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+section { 
+  height: 100vh; 
+  padding-top: 80px;
+}
+
+
+
+
+#about {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 3s;
+  animation: fadeBackground 5s;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes fadeBackground {
+  from { background-color: #374786; }
+  to { background-color: #d5e9f5; }
+}
+
+.tag.visible {
+  opacity: 1 !important;
+  transform: translate(0, 0) !important;
+}
 
 body {
-  padding-top: 80px;
+  /* padding-top: 80px; */
 }
 
 
