@@ -1,40 +1,46 @@
 import React from "react";
 import {Navbar, Nav, NavDropdown, Container} from 'react-bootstrap'
-import Home from '../Home'
-import About from '../About'
-import {
-    BrowserRouter as Router,
-    Routes,
-    Route, 
-    Link
-} from "react-router-dom"
 import './NavbarComponent.css'
-import "@fontsource/shizuru";
+import {useState} from 'react';
 
 function NavbarComponent() {
+   
+    const [isHoveringHome, setIsHoveringHome] = useState(false);
+    const [isHoveringAbout, setIsHoveringAbout] = useState(false);
+
+    const handleMouseEnterHome = () => {
+        setIsHoveringHome(true);
+    };
+    const handleMouseLeaveHome = () => {
+        setIsHoveringHome(false);
+    };
+    const handleMouseEnterAbout = () => {
+        setIsHoveringAbout(true);
+    };
+    const handleMouseLeaveAbout = () => {
+        setIsHoveringAbout(false);
+    };
+
     return (
-        <Router>
-            <div className="navbarDiv">
-            <Navbar className="navbar"  variant={"light"} expand="lg">
+            <div className="navbarDiv" >
+            <Navbar className="navbar  gradient-custom" fixed="top" variant={"light"} expand="lg">
                 <Container>
                     <Navbar.Brand href="#home">SEYOUNG REE</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link as={Link} to={"/"}> Home </Nav.Link>
-                        <Nav.Link as={Link} to={"/about"}>About</Nav.Link>
+                        <Nav.Link href="#home" className="hover-3" style={{color: isHoveringHome ? 'white' : '',}} onMouseEnter={handleMouseEnterHome} onMouseLeave={handleMouseLeaveHome}>
+                                 Home 
+                        </Nav.Link>
+                        <Nav.Link href="#about" style={{color: isHoveringAbout ? 'white' : '',}} onMouseEnter={handleMouseEnterAbout} onMouseLeave={handleMouseLeaveAbout}>
+                                 About 
+                        </Nav.Link>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>
+                
             </Navbar>
             </div>
-            <div>
-                <Routes>
-                <Route exact path="/" element={<Home/>}/>
-                <Route exact path="/about" element={<About/>}/>
-                </Routes>
-            </div>
-            </Router>
     );
 }
 
