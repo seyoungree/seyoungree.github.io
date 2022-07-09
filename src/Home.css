@@ -1,10 +1,27 @@
-h1 {
+#home {
+    display:none;
+}
+#home-h1 {
     font-family: 'Abril Fatface', cursive;
     color:rgb(36,76,112);
+    position:relative; 
+    top:10px;
+    text-align:left;
+    margin-left:100px;
+}
+#home-h1-name {
+    font-family: 'Abril Fatface', cursive;
+    color:rgb(128, 167, 199);
+    position:relative; 
+    font-size:60px;
+    text-align:left;
+    margin-left:100px;
 }
 p {
     font-family: 'IBM Plex Sans', sans-serif;
     color:rgb(65,65,85);
+    text-align:left;
+    margin-left:100px;
 }
 /* .fadein {
     opacity: 0;
@@ -18,21 +35,17 @@ p {
     opacity: 1 ;
   } */
 
-  section.slide-up {
-    height: 100%;
-    overflow: hidden;
-  }
-  
-  section.slide-up p {
-    animation: 5s slide-up;
-    margin-top: 0%;
+  .wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
 
-  section.slide-up h1 {
-    animation: 3s slide-up;
-    margin-top: 0%;
+ 
+
+  #right-side-home {
+    position: sticky;
+    /* display:none; */
   }
-  
   @keyframes slide-up {
     from {
       margin-top: 100%;
@@ -106,4 +119,12 @@ p {
    
    .cta:active {
     transform: scale(0.95);
+   }
+
+   /* .invisible #lf20_avnldv94{
+       display:none;
+   } */
+
+   #lf20_avnldv94 {
+       display:none;
    }

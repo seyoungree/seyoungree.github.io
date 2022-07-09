@@ -41,9 +41,11 @@ section {
 section.slide-up {
   height: 100%;
   overflow: hidden;
+  animation: 3s slide-up;
+  margin-top: 0%;
 }
 
-section.slide-up p {
+/* section.slide-up p {
   animation: 5s slide-up;
   margin-top: 0%;
 }
@@ -51,7 +53,7 @@ section.slide-up p {
 section.slide-up h1 {
   animation: 3s slide-up;
   margin-top: 0%;
-}
+} */
 
 
 @keyframes slide-up {

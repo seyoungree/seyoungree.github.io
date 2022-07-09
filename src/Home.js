@@ -2,8 +2,36 @@ import React from "react";
 import './Home.css'
 import "@fontsource/shizuru";
 import $ from 'jquery';
+import lottie from "lottie-web";
+import lf20_avnldv94 from './lotties/lf20_avnldv94.json';
 
 function Home() {
+    React.useEffect(() => {
+        const instance = lottie.loadAnimation({
+            container: document.querySelector("#lf20_avnldv94"),
+            animationData:lf20_avnldv94,
+            renderer: 'svg',
+            autoplay: true,
+        });
+        return () => instance.destroy();
+    }, []);
+    
+    $(function(){
+        $('#home').fadeIn(4000);
+        var animation = $('#lf20_avnldv94');
+        animation.fadeIn(4000);
+        // setTimeout(function() {
+        //     animation.fadeIn(3000);
+        // }, 2000);
+    });
+    
+    $(function(){
+        
+    });
+    // $(function(){
+    //     var animation = $('#lf20_avnldv94');
+    //     animation.fadeIn(4000);
+    // });
 
     $(document).on("scroll", function() {
         var pageTop = $(document).scrollTop();
@@ -29,13 +57,19 @@ function Home() {
     return (
         <section id="home" className="homepage slide-up">
             <br/>
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
-                    Hi, I'm Seyoung!
+            <div className="wrapper">
+            <div id="left-side-home" >
+            <h1 id="home-h1" className="title-font sm:text-4xl text-3xl mb-4 font-medium">
+                    Hi, I'm
                 <br className="hidden lg:inline-block" />
             </h1>
-            <p>I am a sophomore CS student at Columbia University. I'm currently looking for software engineering internships. Please take a look at my resume and reach me at seyoungree@gmail.com!</p>
+            <h1 id="home-h1-name" className="title-font sm:text-4xl text-3xl mb-4 font-medium">
+                    Seyoung Ree
+                <br className="hidden lg:inline-block" />
+            </h1>
+            <p id="first-p">I am a sophomore CS student at Columbia University. I'm currently looking for software engineering internships. Please take a look at my resume and reach me at seyoungree@gmail.com!</p>
             <br/>
-            <p>This resume is outdated and the website is still in progress! </p>
+            <p id="second-p">This resume is outdated and the website is still in progress! </p>
             <a href="https://drive.google.com/file/d/1Q3j4h16KypqJ_BhVY82PlTdmZPB9hnwQ/view?usp=sharing" target="_blank">
             <button className="cta" >
                 <span>Resume</span>
@@ -45,8 +79,11 @@ function Home() {
                 </svg>
             </button>
             </a>
-            
-            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            </div>
+            <div id="right-side-home">
+                <div id="lf20_avnldv94" />
+            </div>  
+            </div>  
          </section>
         
     );

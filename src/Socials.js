@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 function Socials() {
     return (
-        <div class="social-container">
+        <div className="social-container">
     
             <a href="https://www.linkedin.com/in/seyoung-ree-3bb99016a/"
                 target="_blank"
