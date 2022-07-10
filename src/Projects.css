@@ -1,0 +1,15 @@
+#projects-grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+    margin:50px;
+}
+
+#projects-header {
+    font-family: 'Abril Fatface', cursive;
+    color:rgb(254, 223, 190);
+}
+
+/* #projects-section {
+    color:rgb(36,76,112);
+} */

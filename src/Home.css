@@ -17,7 +17,13 @@
     text-align:left;
     margin-left:100px;
 }
-p {
+#first-p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:rgb(65,65,85);
+    text-align:left;
+    margin-left:100px;
+}
+#second-p{
     font-family: 'IBM Plex Sans', sans-serif;
     color:rgb(65,65,85);
     text-align:left;

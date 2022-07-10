@@ -1,0 +1,57 @@
+/* From uiverse.io by @JoseIsra */
+.card1 {
+    width: 18rem;
+    
+    cursor: pointer;
+  }
+  
+  .content {
+    text-align: center;
+    position: relative;
+    transition: all 2.25s;
+    background-color: rgb(220, 241, 251);
+    padding: 5em;
+    height:20rem;
+    transform-style: preserve-3d;
+    border-radius:10px;
+    color:rgb(252, 181, 104);
+    font-family: 'IBM Plex Sans', sans-serif;
+
+  }
+  
+  .card1:hover .content {
+    transform: rotateY(0.5turn);
+  }
+
+
+  .front,
+  .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 2em;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+  }
+  
+  .title {
+    transform: translateZ(5rem);
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    transform: translateZ(2rem);
+  }
+  
+  .back {
+    transform: rotateY(0.5turn);
+    background-color: #c4e5f6;
+    border-radius:10px;
+  }
+  
+  .description {
+    transform: translateZ(3rem);
+  }
+  

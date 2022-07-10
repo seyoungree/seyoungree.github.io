@@ -32,9 +32,39 @@ section {
   animation: fadeBackground 4s;
   animation-fill-mode: forwards;
 }
+
+#projects-section {
+  opacity: 0;  
+  height: 100vh; 
+  transform: translate(0, 10vh);
+  transition: all 3s;
+  animation: fadeBackgroundProject 3s;
+  animation-fill-mode: forwards;
+}
+
+#skills-section {
+  opacity: 0;  
+  height: 100vh; 
+  transform: translate(0, 10vh);
+  transition: all 3s;
+  animation: fadeBackgroundSkills 3s;
+  animation-fill-mode: forwards;
+}
+
+
 @keyframes fadeBackground {
   from { background-color: #131101; }
   to { background-color: #d5e9f5; }
+}
+
+@keyframes fadeBackgroundProject {
+  from { background-color: #d5e9f5; }
+  to { background-color: #072c44; }
+}
+
+@keyframes fadeBackgroundSkills {
+  from { background-color: #072c44; }
+  to { background-color: rgb(254, 223, 190); }
 }
 
 

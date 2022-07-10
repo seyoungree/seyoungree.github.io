@@ -8,6 +8,8 @@ function NavbarComponent() {
    
     const [isHoveringHome, setIsHoveringHome] = useState(false);
     const [isHoveringAbout, setIsHoveringAbout] = useState(false);
+    const [isHoveringProject, setIsHoveringProject] = useState(false);
+    const [isHoveringSkills, setIsHoveringSkills] = useState(false);
 
     const handleMouseEnterHome = () => {
         setIsHoveringHome(true);
@@ -20,6 +22,18 @@ function NavbarComponent() {
     };
     const handleMouseLeaveAbout = () => {
         setIsHoveringAbout(false);
+    };
+    const handleMouseEnterProject = () => {
+        setIsHoveringProject(true);
+    };
+    const handleMouseLeaveProject = () => {
+        setIsHoveringProject(false);
+    };
+    const handleMouseEnterSkills = () => {
+        setIsHoveringSkills(true);
+    };
+    const handleMouseLeaveSkills = () => {
+        setIsHoveringSkills(false);
     };
 
     return (
@@ -35,6 +49,12 @@ function NavbarComponent() {
                         </Nav.Link>
                         <Nav.Link href="#about" style={{color: isHoveringAbout ? 'rgb(36,76,112)' : 'rgb(122,139,153)',textTransform: isHoveringAbout ? 'uppercase' : '',}} onMouseEnter={handleMouseEnterAbout} onMouseLeave={handleMouseLeaveAbout}>
                                  ABOUT
+                        </Nav.Link>
+                        <Nav.Link href="#projects-section" style={{color: isHoveringProject ? 'rgb(36,76,112)' : 'rgb(122,139,153)',textTransform: isHoveringProject ? 'uppercase' : '',}} onMouseEnter={handleMouseEnterProject} onMouseLeave={handleMouseLeaveProject}>
+                                 PROJECTS
+                        </Nav.Link>
+                        <Nav.Link href="#skills-section" style={{color: isHoveringSkills ? 'rgb(36,76,112)' : 'rgb(122,139,153)',textTransform: isHoveringSkills ? 'uppercase' : '',}} onMouseEnter={handleMouseEnterSkills} onMouseLeave={handleMouseLeaveSkills}>
+                                 SKILLS
                         </Nav.Link>
                     </Nav>
                     <Socials/>
