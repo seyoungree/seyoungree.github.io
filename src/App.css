@@ -28,8 +28,8 @@ section {
   opacity: 0;  
   height: 100vh; 
   transform: translate(0, 10vh);
-  transition: all 4s;
-  animation: fadeBackground 4s;
+  transition: all 1.5s;
+  animation: fadeBackground 1.5s;
   animation-fill-mode: forwards;
 }
 
@@ -37,8 +37,8 @@ section {
   opacity: 0;  
   height: 100vh; 
   transform: translate(0, 10vh);
-  transition: all 3s;
-  animation: fadeBackgroundProject 3s;
+  transition: all 1.5s;
+  animation: fadeBackgroundProject 1.5s;
   animation-fill-mode: forwards;
 }
 
@@ -46,25 +46,25 @@ section {
   opacity: 0;  
   height: 100vh; 
   transform: translate(0, 10vh);
-  transition: all 3s;
-  animation: fadeBackgroundSkills 3s;
+  transition: all 1.5s;
+  animation: fadeBackgroundSkills 1.5s;
   animation-fill-mode: forwards;
 }
 
 
 @keyframes fadeBackground {
   from { background-color: #131101; }
-  to { background-color: #d5e9f5; }
+  to { background-color: #95ead2; }
 }
 
 @keyframes fadeBackgroundProject {
   from { background-color: #d5e9f5; }
-  to { background-color: #072c44; }
+  to { background-color: #5A189A; }
 }
 
 @keyframes fadeBackgroundSkills {
   from { background-color: #072c44; }
-  to { background-color: rgb(254, 223, 190); }
+  to { background-color: #d9edf8; }
 }
 
 
@@ -126,14 +126,15 @@ body {
 
 a.social {
   margin: 0 0.75rem;
-  color:rgb(161, 191, 215);
+  color:rgb(181, 240, 237);
   transition: transform 250ms;
   display: inline-block;
 }
 
+
 a.social:hover {
   transform: translateY(-3px);
-  color:#2e3c58;
+  color:#41c5b6;
 }
 
 .App-link {

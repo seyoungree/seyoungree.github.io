@@ -1,9 +1,10 @@
 #home {
     display:none;
+    /* background-color:#95ead2; */
 }
 #home-h1 {
     font-family: 'Abril Fatface', cursive;
-    color:rgb(36,76,112);
+    color:#5A189A;
     position:relative; 
     top:10px;
     text-align:left;
@@ -11,7 +12,7 @@
 }
 #home-h1-name {
     font-family: 'Abril Fatface', cursive;
-    color:rgb(128, 167, 199);
+    color:#966FD6;
     position:relative; 
     font-size:60px;
     text-align:left;

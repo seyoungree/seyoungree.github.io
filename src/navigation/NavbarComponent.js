@@ -44,16 +44,16 @@ function NavbarComponent() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
                     <Nav className="me-auto px-2 justify-content-between">
-                        <Nav.Link href="#home"  style={{color: isHoveringHome ? 'rgb(36,76,112)' : 'rgb(122,139,153)', textTransform: isHoveringHome ? 'uppercase' : '',}} onMouseEnter={handleMouseEnterHome} onMouseLeave={handleMouseLeaveHome}>
+                        <Nav.Link href="#home"  style={{color: isHoveringHome ? '#99FFE0' : '#D6FFF3', textTransform: isHoveringHome ? 'uppercase' : '',}} onMouseEnter={handleMouseEnterHome} onMouseLeave={handleMouseLeaveHome}>
                                 HOME
                         </Nav.Link>
-                        <Nav.Link href="#about" style={{color: isHoveringAbout ? 'rgb(36,76,112)' : 'rgb(122,139,153)',textTransform: isHoveringAbout ? 'uppercase' : '',}} onMouseEnter={handleMouseEnterAbout} onMouseLeave={handleMouseLeaveAbout}>
+                        <Nav.Link href="#about" style={{color: isHoveringAbout ? '#99FFE0' : '#D6FFF3',textTransform: isHoveringAbout ? 'uppercase' : '',}} onMouseEnter={handleMouseEnterAbout} onMouseLeave={handleMouseLeaveAbout}>
                                  ABOUT
                         </Nav.Link>
-                        <Nav.Link href="#projects-section" style={{color: isHoveringProject ? 'rgb(36,76,112)' : 'rgb(122,139,153)',textTransform: isHoveringProject ? 'uppercase' : '',}} onMouseEnter={handleMouseEnterProject} onMouseLeave={handleMouseLeaveProject}>
+                        <Nav.Link href="#projects-section" style={{color: isHoveringProject ? '#99FFE0' : '#D6FFF3',textTransform: isHoveringProject ? 'uppercase' : '',}} onMouseEnter={handleMouseEnterProject} onMouseLeave={handleMouseLeaveProject}>
                                  PROJECTS
                         </Nav.Link>
-                        <Nav.Link href="#skills-section" style={{color: isHoveringSkills ? 'rgb(36,76,112)' : 'rgb(122,139,153)',textTransform: isHoveringSkills ? 'uppercase' : '',}} onMouseEnter={handleMouseEnterSkills} onMouseLeave={handleMouseLeaveSkills}>
+                        <Nav.Link href="#skills-section" style={{color: isHoveringSkills ? '#99FFE0' : '#D6FFF3',textTransform: isHoveringSkills ? 'uppercase' : '',}} onMouseEnter={handleMouseEnterSkills} onMouseLeave={handleMouseLeaveSkills}>
                                  SKILLS
                         </Nav.Link>
                     </Nav>

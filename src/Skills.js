@@ -16,6 +16,8 @@ import matplotlibIcon from "./assets/matplotlib-icon.png"
 import githubIcon from "./assets/github-icon.png"
 import pandasIcon from "./assets/pandas-icon.png"
 import fireIcon from "./assets/fire-icon.png"
+import bootIcon from "./assets/boot-icon.png"
+import bulmaIcon from "./assets/bulma-icon.png"
 
 export default function Skills() {
 
@@ -36,7 +38,7 @@ export default function Skills() {
 
     return (
         <section id="skills-section" className="tag slide-up">
-            <h1 id="skills-header">Skills</h1>
+            <h1 id="skills-header">Tech Stack</h1>
             <div className="skill-container">
                 <div className="skill">
                     <img src={reactIcon} alt="react icon"/><span>React</span>
@@ -76,6 +78,12 @@ export default function Skills() {
                 </div>
                 <div className="skill">
                 <img src={matplotlibIcon} alt="matplotlib icon"/><span>Matplotlib</span>
+                </div>
+                <div className="skill">
+                <img src={bootIcon} alt="bootstrap icon"/><span>Bootstrap</span>
+                </div>
+                <div className="skill">
+                <img src={bulmaIcon} alt="bulma icon"/><span>Bulma</span>
                 </div>
             </div>
         </section>

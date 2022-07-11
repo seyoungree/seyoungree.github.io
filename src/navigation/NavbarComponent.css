@@ -6,7 +6,7 @@
 
 .navName {
     font-family: 'Abril Fatface', cursive;
-    color: rgb(128, 167, 199) !important;
+    color: #abfbe4 !important;
 }
 
 Nav{
@@ -15,14 +15,13 @@ Nav{
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
     font-family: 'IBM Plex Sans', sans-serif;
-
 }
 
    .gradient-custom {
     /* fallback for old browsers */
     /* background: rgb(248, 226, 226); */
-    background: rgb(254, 254, 254);
-
+    /* background: rgb(254, 254, 254); */
+    background: #9D4EDD;
      
 /*     background: -webkit-linear-gradient(to right, rgb(178, 126, 213), rgb(113, 250, 195));
   

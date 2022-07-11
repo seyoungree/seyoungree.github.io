@@ -4,12 +4,12 @@ import "@fontsource/shizuru";
 import $ from 'jquery';
 import lottie from "lottie-web";
 import lf20_avnldv94 from './lotties/lf20_avnldv94.json';
-
+import teal_city from './lotties/lf20_u62920f1.json'
 function Home() {
     React.useEffect(() => {
         const instance = lottie.loadAnimation({
             container: document.querySelector("#lf20_avnldv94"),
-            animationData:lf20_avnldv94,
+            animationData:teal_city,
             renderer: 'svg',
             autoplay: true,
         });

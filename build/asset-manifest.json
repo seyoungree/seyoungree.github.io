@@ -1,11 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c74fd81.css",
-    "main.js": "/static/js/main.91d14aa0.js",
+    "main.css": "/static/css/main.227ef5c4.css",
+    "main.js": "/static/js/main.742ab064.js",
     "static/js/787.d3a323c0.chunk.js": "/static/js/787.d3a323c0.chunk.js",
+    "static/media/matplotlib-icon.png": "/static/media/matplotlib-icon.f3fc2f9556005ed2cfa2.png",
+    "static/media/react-icon.png": "/static/media/react-icon.8a6fc0a24a800d1e0f4a.png",
     "static/media/shizuru-all-400-normal.woff": "/static/media/shizuru-all-400-normal.48582200439808176aa1.woff",
+    "static/media/c_icon.png": "/static/media/c_icon.848ffa125321bf630b64.png",
     "static/media/shizuru-119-400-normal.woff2": "/static/media/shizuru-119-400-normal.50b405add51d46c51193.woff2",
+    "static/media/python-icon.png": "/static/media/python-icon.2e65c2b73eddaaf97e06.png",
+    "static/media/boot-icon.png": "/static/media/boot-icon.f132cb791703420e69ca.png",
     "static/media/shizuru-118-400-normal.woff2": "/static/media/shizuru-118-400-normal.22cd1b3b3682f647b7ac.woff2",
+    "static/media/css-icon.png": "/static/media/css-icon.36b2d80f5a5991ca3a4b.png",
+    "static/media/cloud-icon.png": "/static/media/cloud-icon.fcf505213a8be4034c9f.png",
+    "static/media/java-icon.png": "/static/media/java-icon.f5dd86c3ef6ef3f85acf.png",
+    "static/media/html-icon.png": "/static/media/html-icon.d9d05b93909e56f6a45f.png",
+    "static/media/bulma-icon.png": "/static/media/bulma-icon.95303a0e1b77546e64fe.png",
+    "static/media/js-icon.png": "/static/media/js-icon.ff4e3c8c1c21c479f063.png",
+    "static/media/fire-icon.png": "/static/media/fire-icon.a4156cb67d6d0676cffc.png",
     "static/media/shizuru-54-400-normal.woff2": "/static/media/shizuru-54-400-normal.35ba143e90f99e14ef57.woff2",
     "static/media/shizuru-107-400-normal.woff2": "/static/media/shizuru-107-400-normal.ba500b53b4bbec6ec634.woff2",
     "static/media/shizuru-117-400-normal.woff2": "/static/media/shizuru-117-400-normal.6884a97a3e6241b3930a.woff2",
@@ -28,12 +40,12 @@
     "static/media/shizuru-91-400-normal.woff2": "/static/media/shizuru-91-400-normal.bfbf22c1c0f4a336d3f7.woff2",
     "static/media/shizuru-74-400-normal.woff2": "/static/media/shizuru-74-400-normal.74988120d591755f55fc.woff2",
     "index.html": "/index.html",
-    "main.2c74fd81.css.map": "/static/css/main.2c74fd81.css.map",
-    "main.91d14aa0.js.map": "/static/js/main.91d14aa0.js.map",
+    "main.227ef5c4.css.map": "/static/css/main.227ef5c4.css.map",
+    "main.742ab064.js.map": "/static/js/main.742ab064.js.map",
     "787.d3a323c0.chunk.js.map": "/static/js/787.d3a323c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c74fd81.css",
-    "static/js/main.91d14aa0.js"
+    "static/css/main.227ef5c4.css",
+    "static/js/main.742ab064.js"
   ]
 }
