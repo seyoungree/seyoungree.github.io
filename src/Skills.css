@@ -2,3 +2,31 @@
     font-family: 'Abril Fatface', cursive;
     color:rgb(34, 82, 99);
 }
+
+.skill-container {
+    margin: 50px auto 0 auto;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill {
+    border-radius: 12px;
+    margin: 10px;
+    border: 2px solid #98c6d8;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.skill span {
+    margin-left: 10px;
+}
+
+.skill img {
+    height: 18px;
+}

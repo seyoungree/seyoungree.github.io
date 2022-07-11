@@ -1,6 +1,21 @@
 import React from 'react';
 import './Skills.css'
 import $ from 'jquery'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faReact} from '@fortawesome/free-brands-svg-icons';
+import reactIcon from "./assets/react-icon.png"
+import pythonIcon from "./assets/python-icon.png"
+import cIcon from "./assets/c_icon.png"
+import javaIcon from "./assets/java-icon.png"
+import htmlIcon from "./assets/html-icon.png"
+import cssIcon from "./assets/css-icon.png"
+import jsIcon from "./assets/js-icon.png"
+import cloudIcon from "./assets/cloud-icon.png"
+import dashIcon from "./assets/dash-icon.png"
+import matplotlibIcon from "./assets/matplotlib-icon.png"
+import githubIcon from "./assets/github-icon.png"
+import pandasIcon from "./assets/pandas-icon.png"
+import fireIcon from "./assets/fire-icon.png"
 
 export default function Skills() {
 
@@ -22,6 +37,47 @@ export default function Skills() {
     return (
         <section id="skills-section" className="tag slide-up">
             <h1 id="skills-header">Skills</h1>
+            <div className="skill-container">
+                <div className="skill">
+                    <img src={reactIcon} alt="react icon"/><span>React</span>
+                </div>
+                <div className="skill">
+                <img src={pythonIcon} alt="python icon"/><span>Python</span>
+                </div>
+                <div className="skill">
+                <img src={cIcon} alt="c++ icon"/><span>C++</span>
+                </div>
+                <div className="skill">
+                <img src={javaIcon} alt="java icon"/><span>Java</span>
+                </div>
+                <div className="skill">
+                <img src={htmlIcon} alt="html icon"/><span>HTML</span>
+                </div>
+                <div className="skill">
+                <img src={cssIcon} alt="css icon"/><span>CSS</span>
+                </div>
+                <div className="skill">
+                <img src={jsIcon} alt="js icon"/><span>JavaScript</span>
+                </div>
+                <div className="skill">
+                <img src={githubIcon} alt="github icon"/><span>Github</span>
+                </div>
+                <div className="skill">
+                <img src={cloudIcon} alt="google cloud icon"/><span>Google Cloud Services</span>
+                </div>
+                <div className="skill">
+                <img src={fireIcon} alt="firebase icon"/><span>Firebase</span>
+                </div>
+                <div className="skill">
+                <img src={pandasIcon} alt="pandas icon"/><span>Pandas</span>
+                </div>
+                <div className="skill">
+                <img src={dashIcon} alt="dash icon"/><span>Dash</span>
+                </div>
+                <div className="skill">
+                <img src={matplotlibIcon} alt="matplotlib icon"/><span>Matplotlib</span>
+                </div>
+            </div>
         </section>
     );
 }
