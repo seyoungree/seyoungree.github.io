@@ -10,8 +10,8 @@
 }
 
 Nav{
-    -webkit-box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
-    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+    -webkit-box-shadow: 3px 3px 6px #b6a4c3, -3px -3px 6px rgb(235, 226, 240);
+    box-shadow: 3px 3px 6px #b6a4c3, -3px -3px 6px rgb(235, 226, 240);
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
     font-family: 'IBM Plex Sans', sans-serif;

@@ -20,13 +20,14 @@
 }
 #first-p{
     font-family: 'IBM Plex Sans', sans-serif;
-    color:rgb(65,65,85);
+    color:#4a1381;
     text-align:left;
     margin-left:100px;
+    font-size: 20px;
 }
 #second-p{
     font-family: 'IBM Plex Sans', sans-serif;
-    color:rgb(65,65,85);
+    color:#4a1381;
     text-align:left;
     margin-left:100px;
 }
@@ -67,12 +68,16 @@
 /* From uiverse.io by @alexmaracinaru */
 .cta {
     position: relative;
-    margin: auto;
+    float: left;
     padding: 12px 18px;
     transition: all 0.2s ease;
     border: none;
     background: none;
    }
+  
+  .button1 {
+    margin: 0 10px 0 100px;
+  }
    
    .cta:before {
     content: "";
@@ -81,7 +86,7 @@
     left: 0;
     display: block;
     border-radius: 50px;
-    background: #b1dae7;
+    background: #91e2db;
     width: 45px;
     height: 45px;
     transition: all 0.3s ease;
@@ -99,7 +104,7 @@
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.05em;
-    color: #234567;
+    color: #5A189A;
    }
    
    .cta svg {
@@ -109,15 +114,16 @@
     fill: none;
     stroke-linecap: round;
     stroke-linejoin: round;
-    stroke: #234567;
+    stroke: #5A189A;
     stroke-width: 2;
     transform: translateX(-5px);
     transition: all 0.3s ease;
    }
+
    
    .cta:hover:before {
     width: 100%;
-    background: #b1dae7;
+    background: #91e2db;
    }
    
    .cta:hover svg {
@@ -135,3 +141,112 @@
    #lf20_avnldv94 {
        display:none;
    }
+
+   .h1-container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+
+  .invisible {
+      opacity:0;
+  }
+  
+  .h1-container h1:nth-child(1) {
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100px;
+    animation: type 1.5s steps(20,end) forwards;
+  }
+  
+  .h1-container h1:nth-child(2) {
+    opacity: 0;
+    background: linear-gradient(to right, #dabbfa, #b472f6, #9135ca);
+    font-size: 100px;  
+    width: 430px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    overflow: hidden;
+    animation: shring-animation 3s steps(40,end) 1.5s forwards;
+  }
+  
+  .h1-container p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:#4a1381;
+    text-align:left;
+    margin-left:100px;
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 650px;
+    animation: type2 3s steps(40,end)  4.5s forwards, blink .5s step-end infinite alternate;
+    opacity:0;
+
+  }
+  @keyframes shring-animation {
+    0% {
+      background-position: 0 0;
+      opacity: 0;
+      width: 0;
+    }
+    1% {
+      background-position: 0 0;
+      opacity: 1;
+      border-right: 1px solid rgb(0, 147, 127);
+    }
+    50% {
+      background-position: 150px 0;
+      opacity: 1;
+      border-right: 1px solid rgb(0, 147, 127);
+    }
+    99% {
+      background-position: 400px 0;
+      opacity: 1;
+      border-right: 1px solid rgb(0, 147, 127);
+    }
+    100% {
+      background-position: 400px 0;
+      opacity:1;
+      border-right: none;
+    }
+  }
+  
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    1%, 99%{
+      border-right: 1px solid rgb(0, 147, 127);
+    }
+    100%{
+      border-right: none;
+    }
+  }
+
+  @keyframes type2 {
+    0% {
+      width: 0;
+      opacity: 0;
+
+    }
+    1%, 99%{
+      border-right: 1px solid rgb(0, 147, 127);
+      opacity: 1;
+
+    }
+    100%{
+      border-right: 1px solid rgb(0, 147, 127);
+      opacity: 1;
+
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent ;
+    }
+  }
+  

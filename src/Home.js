@@ -20,13 +20,14 @@ function Home() {
         $('#home').fadeIn(4000);
         var animation = $('#lf20_avnldv94');
         animation.fadeIn(4000);
-        // setTimeout(function() {
-        //     animation.fadeIn(3000);
-        // }, 2000);
+        
     });
     
     $(function(){
-        
+        setTimeout(function() {
+            $('#h1s').removeClass('invisible');
+            $('#h1s').addClass('h1-container');    
+        }, 2000);
     });
     // $(function(){
     //     var animation = $('#lf20_avnldv94');
@@ -59,20 +60,30 @@ function Home() {
             <br/>
             <div className="wrapper">
             <div id="left-side-home" >
-            <h1 id="home-h1" className="title-font sm:text-4xl text-3xl mb-4 font-medium">
+            <div  id="h1s" className="invisible">
+            <h1 id="home-h1" className="typewriter title-font sm:text-4xl text-3xl mb-4 font-medium">
                     Hi, I'm
                 <br className="hidden lg:inline-block" />
             </h1>
-            <h1 id="home-h1-name" className="title-font sm:text-4xl text-3xl mb-4 font-medium">
+            <h1 id="home-h1-name" className="typewriter title-font sm:text-4xl text-3xl mb-4 font-medium">
                     Seyoung Ree
-                <br className="hidden lg:inline-block" />
-            </h1>
-            <p id="first-p">I am a sophomore CS student at Columbia University. I'm currently looking for software engineering internships. Please take a look at my resume and reach me at seyoungree@gmail.com!</p>
+                <br className="hidden lg:inline-block" /></h1>
+            <p id="first-p">SOFTARE ENGINEER &#183; FULL-STACK DEVELOPER &#183; GRAPHIC DESIGNER</p>
+            </div>
             <br/>
-            <p id="second-p">This resume is outdated and the website is still in progress! </p>
+            {/* <p id="second-p">This resume is outdated and the website is still in progress! </p> */}
+            <a href="https://drive.google.com/file/d/1Q3j4h16KypqJ_BhVY82PlTdmZPB9hnwQ/view?usp=sharing" target="_blank">
+            <button className="cta button1" >
+                <span>Resume</span>
+                <svg viewBox="0 0 13 10" height="10px" width="15px">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+            </button>
+            </a>
             <a href="https://drive.google.com/file/d/1Q3j4h16KypqJ_BhVY82PlTdmZPB9hnwQ/view?usp=sharing" target="_blank">
             <button className="cta" >
-                <span>Resume</span>
+                <span>Email me</span>
                 <svg viewBox="0 0 13 10" height="10px" width="15px">
                     <path d="M1,5 L11,5"></path>
                     <polyline points="8 1 12 5 8 9"></polyline>

@@ -24,9 +24,9 @@ export default function Projects(){
         <section id="projects-section" className="tag slide-up">
             <h1 id="projects-header">Projects </h1>
             <div id="projects-grid">
-                <ProjectCard/>
-                <ProjectCard/>
-                <ProjectCard/>
+                <ProjectCard title="BGSU RNA Group" description="electron transfer networks"/>
+                <ProjectCard title="BGSU RNA Group" description="electron transfer networks"/>
+                <ProjectCard title="BGSU RNA Group" description="electron transfer networks"/>
             </div>
         </section>
     );

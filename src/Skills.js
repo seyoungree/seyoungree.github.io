@@ -18,8 +18,20 @@ import pandasIcon from "./assets/pandas-icon.png"
 import fireIcon from "./assets/fire-icon.png"
 import bootIcon from "./assets/boot-icon.png"
 import bulmaIcon from "./assets/bulma-icon.png"
+import codingLottie from "./lotties/lf30_editor_xylox7bp.json";
+
+import lottie from "lottie-web";
 
 export default function Skills() {
+    React.useEffect(() => {
+        const instance = lottie.loadAnimation({
+            container: document.querySelector("#coding-ani"),
+            animationData:codingLottie,
+            // renderer: 'svg',
+            autoplay: true,
+        });
+        return () => instance.destroy();
+    }, []);
 
     $(document).on("scroll", function() {
         var pageTop = $(document).scrollTop();
@@ -39,6 +51,7 @@ export default function Skills() {
     return (
         <section id="skills-section" className="tag slide-up">
             <h1 id="skills-header">Tech Stack</h1>
+            <div className="stack-container">
             <div className="skill-container">
                 <div className="skill">
                     <img src={reactIcon} alt="react icon"/><span>React</span>
@@ -86,6 +99,9 @@ export default function Skills() {
                 <img src={bulmaIcon} alt="bulma icon"/><span>Bulma</span>
                 </div>
             </div>
+
+            <div id="coding-ani"></div>
+            </div> 
         </section>
     );
 }
