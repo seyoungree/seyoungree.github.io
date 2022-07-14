@@ -9,14 +9,20 @@
     text-align: center;
     position: relative;
     transition: all 2.25s;
-    background-color: aliceblue;
+    background-color: rgb(155, 110, 233);
     padding: 5em;
     height: 20rem;
     transform-style: preserve-3d;
     border-radius:10px;
-    color:rgb(252, 181, 104);
+    color:#99FFE0;
     font-family: 'IBM Plex Sans', sans-serif;
 
+  }
+
+  .title {
+    font-family: 'Lobster Two', sans-serif;
+    /* font-weight:700; */
+    font-size:22px;
   }
   
   .card1:hover .content {

@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('http://fonts.cdnfonts.com/css/apercu');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap');
+
+
 .App {
   text-align: center;  
   background-color:rgb(255,255,255);
@@ -120,9 +124,7 @@ body {
   color: white;
 }
 
-.social-container {
-  padding: 25px 50px;
-}
+
 
 a.social {
   margin: 0 0.75rem;

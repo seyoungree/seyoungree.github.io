@@ -1,5 +1,7 @@
 #skills-header {
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Lobster Two', sans-serif;
+    font-weight:700;
+    font-size:48px;    
     color:#5A189A;
 }
 
@@ -30,8 +32,9 @@
 
 .skill span {
     margin-left: 10px;
-    font-family: 'IBM Plex Sans', sans-serif;
-    color:#021e21;
+    font-family: 'Apercu', sans-serif;
+    color:#360963;
+    font-size:17px;
 }
 
 .skill img {

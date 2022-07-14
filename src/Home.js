@@ -68,7 +68,9 @@ function Home() {
             <h1 id="home-h1-name" className="typewriter title-font sm:text-4xl text-3xl mb-4 font-medium">
                     Seyoung Ree
                 <br className="hidden lg:inline-block" /></h1>
-            <p id="first-p">SOFTARE ENGINEER &#183; FULL-STACK DEVELOPER &#183; GRAPHIC DESIGNER</p>
+            {/* <p id="first-p">SOFTARE ENGINEER &#183; FULL-STACK DEVELOPER &#183; GRAPHIC DESIGNER</p> */}
+            <p id="first-p">Software Engineer &#183; Full-stack Developer</p>
+
             </div>
             <br/>
             {/* <p id="second-p">This resume is outdated and the website is still in progress! </p> */}

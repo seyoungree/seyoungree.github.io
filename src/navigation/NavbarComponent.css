@@ -1,11 +1,13 @@
+
 .navbar {
     position:"sticky";
     height: 80px;
-    font-size:100%;
 }
 
 .navName {
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Lobster Two', 'Abril Fatface', sans-serif;
+    /* font-style: normal; */
+    font-size: 26px !important;
     color: #abfbe4 !important;
 }
 
@@ -14,7 +16,10 @@ Nav{
     box-shadow: 3px 3px 6px #b6a4c3, -3px -3px 6px rgb(235, 226, 240);
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
-    font-family: 'IBM Plex Sans', sans-serif;
+    /* font-family: 'IBM Plex Sans', sans-serif; */
+    font-family:'Apercu', sans-serif;
+    font-size: 18px;
+
 }
 
    .gradient-custom {
@@ -31,4 +36,7 @@ Nav{
   }
 
 
-
+.socials-nav {
+    position:relative;
+    float:right;
+}

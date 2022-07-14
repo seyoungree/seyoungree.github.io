@@ -27,7 +27,7 @@ function About() {
                 <li>software </li>
                 <li>student</li>
                 </ul> */}
-                <p id="first-p">I am a sophomore CS student at Columbia University. I'm currently looking for software engineering internships. Please take a look at my resume and reach me at seyoungree@gmail.com!</p>
+                <p id="about-p">I am a sophomore CS student at Columbia University. I'm currently looking for software engineering internships. Please take a look at my resume and reach me at seyoungree@gmail.com!</p>
             </div>
         </section>
     );

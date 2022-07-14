@@ -1,3 +1,4 @@
+
 #projects-grid {
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -6,7 +7,9 @@
 }
 
 #projects-header {
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Lobster Two', sans-serif;
+    font-weight:700;
+    font-size:48px;
     color:#99FFE0;
 }
 

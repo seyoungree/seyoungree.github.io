@@ -40,7 +40,7 @@ function NavbarComponent() {
             <div className="navbarDiv" >
             <Navbar className="navbar gradient-custom" fixed="top" variant={"light"} expand="lg">
                 <Container>
-                    <Navbar.Brand className="navName" href="#home">SEYOUNG REE</Navbar.Brand>
+                    <Navbar.Brand className="navName" href="#home">Seyoung Ree</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
                     <Nav className="me-auto px-2 justify-content-between">
@@ -57,7 +57,7 @@ function NavbarComponent() {
                                  SKILLS
                         </Nav.Link>
                     </Nav>
-                    <Socials/>
+                    <Socials className="socials-nav"/>
 
                     </Navbar.Collapse>
                 </Container>
